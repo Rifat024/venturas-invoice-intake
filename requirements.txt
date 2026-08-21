@@ -1,0 +1,10 @@
+# Runtime dependencies. Install with:  pip install -r requirements.txt
+google-genai>=0.3        # Gemini vision extraction (free tier)
+PyMuPDF>=1.23            # render PDF pages to images + read text layer
+python-dotenv>=1.0       # load GEMINI_API_KEY from .env
+fastapi>=0.110           # optional human-review web screen
+uvicorn>=0.29            # ASGI server for the review screen
+python-multipart>=0.0.9  # form posts from the review screen
+
+# Dev/test only:
+pytest>=8.0

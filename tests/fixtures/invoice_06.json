@@ -1,0 +1,31 @@
+{
+  "invoice_number": "YM-2026-0122",
+  "issue_date": "2026-01-22",
+  "due_date": "2026-02-28",
+  "supplier_name": "ヤマダ製作所",
+  "supplier_registration_no": "T1010001000101",
+  "lines": [
+    {
+      "description": "表面処理加工",
+      "quantity": 200,
+      "unit": "個",
+      "unit_price": 340,
+      "amount": 68000,
+      "tax_rate": 10
+    },
+    {
+      "description": "特急対応費",
+      "quantity": null,
+      "unit": "式",
+      "unit_price": null,
+      "amount": 25000,
+      "tax_rate": 10
+    }
+  ],
+  "subtotal": 93000,
+  "tax_amount": 9300,
+  "total_amount": 102300,
+  "notes": "Supplier printed as alias 'ヤマダ製作所' (master name is 株式会社山田製作所).",
+  "currency": "JPY",
+  "confidence": 0.97
+}

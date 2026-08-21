@@ -1,0 +1,39 @@
+{
+  "invoice_number": "MIT-2026-011",
+  "issue_date": "2026-01-20",
+  "due_date": "2026-02-28",
+  "supplier_name": "みらいITソリューションズ株式会社",
+  "supplier_registration_no": "T5050005000505",
+  "lines": [
+    {
+      "description": "基幹システム保守 (1月分)",
+      "quantity": null,
+      "unit": "式",
+      "unit_price": null,
+      "amount": 280000,
+      "tax_rate": 10
+    },
+    {
+      "description": "障害対応 (時間外)",
+      "quantity": 6,
+      "unit": "時間",
+      "unit_price": 12000,
+      "amount": 72000,
+      "tax_rate": 10
+    },
+    {
+      "description": "VPN回線利用料",
+      "quantity": null,
+      "unit": "式",
+      "unit_price": null,
+      "amount": 45000,
+      "tax_rate": 10
+    }
+  ],
+  "subtotal": 397000,
+  "tax_amount": 39700,
+  "total_amount": 436700,
+  "currency": "JPY",
+  "confidence": 0.97,
+  "notes": ""
+}

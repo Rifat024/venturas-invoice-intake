@@ -1,0 +1,31 @@
+{
+  "invoice_number": "SATO-260118",
+  "issue_date": "2026-01-18",
+  "due_date": "2026-03-31",
+  "supplier_name": "有限会社佐藤商店",
+  "supplier_registration_no": "T2020002000202",
+  "lines": [
+    {
+      "description": "事務用品セット",
+      "quantity": 15,
+      "unit": "セット",
+      "unit_price": 4800,
+      "amount": 72000,
+      "tax_rate": 10
+    },
+    {
+      "description": "コピー用紙 A4",
+      "quantity": 60,
+      "unit": "箱",
+      "unit_price": 2450,
+      "amount": 147000,
+      "tax_rate": 10
+    }
+  ],
+  "subtotal": 219000,
+  "tax_amount": 21900,
+  "total_amount": 240900,
+  "notes": "Handwritten '受領 1/20 経理' received stamp (ignored).",
+  "currency": "JPY",
+  "confidence": 0.97
+}

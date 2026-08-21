@@ -1,0 +1,31 @@
+{
+  "invoice_number": "SSL-2026-0203",
+  "issue_date": "2026-02-03",
+  "due_date": "2026-03-31",
+  "supplier_name": "新星ロジスティクス株式会社",
+  "supplier_registration_no": "T9090009000909",
+  "lines": [
+    {
+      "description": "倉庫保管料 (1月分)",
+      "quantity": null,
+      "unit": "式",
+      "unit_price": null,
+      "amount": 120000,
+      "tax_rate": 10
+    },
+    {
+      "description": "入出庫作業",
+      "quantity": 340,
+      "unit": "件",
+      "unit_price": 220,
+      "amount": 74800,
+      "tax_rate": 10
+    }
+  ],
+  "subtotal": 194800,
+  "tax_amount": 19480,
+  "total_amount": 214280,
+  "notes": "Supplier is NOT in the partner master -> cannot be auto-registered.",
+  "currency": "JPY",
+  "confidence": 0.97
+}

@@ -1,0 +1,31 @@
+{
+  "invoice_number": "OSK-26-0128",
+  "issue_date": "2026-01-28",
+  "due_date": "2026-02-20",
+  "supplier_name": "大阪機械工業株式会社",
+  "supplier_registration_no": "T4040004000404",
+  "lines": [
+    {
+      "description": "シャフト加工",
+      "quantity": 37,
+      "unit": "個",
+      "unit_price": 2733,
+      "amount": 101121,
+      "tax_rate": 10
+    },
+    {
+      "description": "熱処理",
+      "quantity": 37,
+      "unit": "個",
+      "unit_price": 891,
+      "amount": 32967,
+      "tax_rate": 10
+    }
+  ],
+  "subtotal": 134088,
+  "tax_amount": 13408,
+  "total_amount": 147497,
+  "notes": "Image-only PDF (no text layer); non-round unit prices.",
+  "currency": "JPY",
+  "confidence": 0.97
+}

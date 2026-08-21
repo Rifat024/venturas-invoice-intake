@@ -1,0 +1,31 @@
+{
+  "invoice_number": "SATO-260205",
+  "issue_date": "2026-02-05",
+  "due_date": "2026-03-31",
+  "supplier_name": "有限会社佐藤商店",
+  "supplier_registration_no": "T2020002000202",
+  "lines": [
+    {
+      "description": "清掃用品一式",
+      "quantity": null,
+      "unit": "式",
+      "unit_price": null,
+      "amount": 34500,
+      "tax_rate": 10
+    },
+    {
+      "description": "トイレットペーパー",
+      "quantity": 40,
+      "unit": "箱",
+      "unit_price": 1980,
+      "amount": 79200,
+      "tax_rate": 10
+    }
+  ],
+  "subtotal": 113700,
+  "tax_amount": 11370,
+  "total_amount": 125070,
+  "notes": "Dates printed in Reiwa era (令和8年 = 2026).",
+  "currency": "JPY",
+  "confidence": 0.97
+}

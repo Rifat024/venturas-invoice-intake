@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-intake"
+version = "1.0.0"
+description = "AI invoice intake pipeline for the mock accounting API (Venturas take-home)"
+requires-python = ">=3.9"
+dependencies = [
+    "google-genai>=0.3",   # Gemini vision extraction (free tier)
+    "PyMuPDF>=1.23",        # render PDF pages to images / pull text layer
+    "python-dotenv>=1.0",   # load GEMINI_API_KEY from .env
+    "fastapi>=0.110",       # optional human-review screen
+    "uvicorn>=0.29",        # ASGI server for the review screen
+    "python-multipart>=0.0.9",  # form posts from the review screen
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+invoice-intake = "invoice_intake.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

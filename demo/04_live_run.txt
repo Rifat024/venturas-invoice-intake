@@ -1,0 +1,23 @@
+Accounting API: http://localhost:8080  (health: ok)
+Mode: live   Register: True
+Reset: removed 3 existing invoice(s).
+
+File              Status       Partner    AcctID    Total(JPY)     Reason / note                           
+-----------------------------------------------------------------------------------------------------------
+invoice_01.pdf    REGISTERED   P-1001     ACC-0001  334,400                                                
+invoice_02.pdf    REGISTERED   P-1004     ACC-0002  1,560,988                                              
+invoice_03.pdf    REGISTERED   P-1003     ACC-0003  125,357                                                
+invoice_04.jpg    REGISTERED   P-1002     ACC-0004  240,900                                                
+invoice_05.jpg    REGISTERED   P-1005     ACC-0005  436,700                                                
+invoice_06.jpg    REGISTERED   P-1001     ACC-0006  102,300                                                
+invoice_07.jpg    DUPLICATE    P-1001     -         334,400        Duplicate: invoice YM-2026-0107 for P-10
+invoice_08.jpg    REGISTERED   P-1003     ACC-0007  118,936                                                
+invoice_09.pdf    REGISTERED   P-1004     ACC-0008  147,497        Printed total 147,497 differs from recom
+invoice_10.jpg    REVIEW       -          -         214,280        Supplier '新星ロジスティクス株式会社' (reg T909000900
+invoice_11.jpg    REGISTERED   P-1002     ACC-0009  125,070                                                
+invoice_12.jpg    REGISTERED   P-1005     ACC-0010  594,000                                                
+-----------------------------------------------------------------------------------------------------------
+Summary  DUPLICATE: 1 | REVIEW: 1 | REGISTERED: 10  (total 12)
+
+Wrote out/run_report.json and out/review_queue.json
+Accounting system now holds 10 invoice(s).
